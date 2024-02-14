@@ -10,14 +10,14 @@ dependencies {'ox_lib','ox_inventory'}
 shared_scripts {'@ox_lib/init.lua'}
 
 server_scripts {
-    'server/server.lua',
-    'shared/config.lua'
+    'server.lua',
+    'config.lua'
 }
 
 client_scripts {
-    'client/client.lua'
+    'client.lua'
 }
 
 escrow_ignore {
-    'shared/config.lua',
+    'config.lua',
 }
